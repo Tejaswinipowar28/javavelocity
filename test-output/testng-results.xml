@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-07T12:56:35 IST" name="Suite" finished-at="2022-08-07T12:57:16 IST" duration-ms="41026">
+    <groups>
+    </groups>
+    <test started-at="2022-08-07T12:56:35 IST" name="FirefoxTest" finished-at="2022-08-07T12:57:11 IST" duration-ms="36281">
+      <class name="crossBrowTestNG_Study.CrossBrowTestStudy">
+        <test-method signature="launchKiteMethod(java.lang.String)[pri:0, instance:crossBrowTestNG_Study.CrossBrowTestStudy@4fb3ee4e]" started-at="2022-08-07T12:56:35 IST" name="launchKiteMethod" finished-at="2022-08-07T12:57:11 IST" duration-ms="36176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchKiteMethod -->
+      </class> <!-- crossBrowTestNG_Study.CrossBrowTestStudy -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2022-08-07T12:56:35 IST" name="ChromeTest" finished-at="2022-08-07T12:57:16 IST" duration-ms="41026">
+      <class name="crossBrowTestNG_Study.CrossBrowTestStudy">
+        <test-method signature="launchKiteMethod(java.lang.String)[pri:0, instance:crossBrowTestNG_Study.CrossBrowTestStudy@2e3967ea]" started-at="2022-08-07T12:56:35 IST" name="launchKiteMethod" finished-at="2022-08-07T12:57:16 IST" duration-ms="40934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchKiteMethod -->
+      </class> <!-- crossBrowTestNG_Study.CrossBrowTestStudy -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
